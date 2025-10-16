@@ -21,7 +21,7 @@ Ele incluirá regras como: <br>
   
   re → Recompila tudo do zero
 ```
-# 🧠 O que o script faz
+## 🧠 O que o script faz
 ```
   ✅ Detecta automaticamente todos os arquivos .c / .cpp no projeto (inclusive em subdiretórios)
   ✅ Gera variáveis organizadas como SRCS, OBJS, CC, CFLAGS, NAME etc.
@@ -29,4 +29,4 @@ Ele incluirá regras como: <br>
   ✅ Substitui Makefiles antigos de forma segura
   ✅ Garante compatibilidade com a estrutura tradicional dos projetos da 42 School ou projetos pessoais
 ```
-# ⚠️ O script deve ser executado na raiz do projeto, para que consiga localizar todos os arquivos corretamente
+## ⚠️ O script deve ser executado na raiz do projeto, para que consiga localizar todos os arquivos corretamente
