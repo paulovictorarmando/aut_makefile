@@ -1,3 +1,21 @@
+# 🛠️ Auto Makefile Generator
+
+Este projeto foi criado para **gerar automaticamente um Makefile** bem estruturado para projetos em **C** ou **C++**.  
+Basta executar o script Python na raiz do projeto e ele se encarrega de procurar todos os arquivos-fonte (`.c` / `.cpp`) e cabeçalhos (`.h` / `.hpp`) — mesmo em **subpastas** — e criar um **Makefile limpo, funcional e atualizado**.  
+
+Se um Makefile já existir, ele será **substituído por um novo**, mantendo a estrutura padrão e regras consistentes.  
+
+---
+
+## 🚀 Como usar
+
+### 📍 Execução
+Na raiz do seu projeto, execute o script principal passando os seguintes argumentos:
+
+```bash
+python3 main.py <linguagem> <compilador> <nome_exec> "<flags>"
+```
+
 
 # 💡 Exemplo de uso
 ## 🔹 Para projeto em C:
